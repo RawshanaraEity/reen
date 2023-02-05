@@ -1,0 +1,512 @@
+@media (min-width:1200px){
+
+}
+
+@media (min-width:992px) and (max-width:1199px){
+
+    .top-bar-left ul{
+        margin-left: 10px;
+    }
+    .top-bar-right ul{
+        margin-right: 10px;
+    }
+    .head-content .logo{
+        margin-left: 10px;
+    
+    }
+    .head-content .navbar li {
+        margin-right: 40px;
+    }
+
+    .head-content .search a {
+        margin-right: 10px;
+    }
+
+    .home-content h1 {
+        font-size: 60px;
+        letter-spacing: 2px;
+        margin-bottom: 22px;
+    }
+
+    .home-content p {
+        margin-bottom: 50px;
+        font-size: 21px;
+    }
+    .home-btn {
+        font-size: 15px;
+    }
+
+    .responsive-title h2,
+    .check-work-title h2,
+    .bottom h2{
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .responsive-title p,
+    .check-work-title p,
+    .bottom p {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 70px;
+    }
+    .bottom .bottom-btn {
+        font-size: 12px;
+        margin-top: -30px;
+    }
+    .img{
+        width: 100%;
+    }
+    .responsive .img-point img {
+        width: 80%;
+        height: 21%;
+    }
+    .check-work img{
+        width: 100%;
+    }
+    .foot h5 {
+        font-size: 12px;
+        margin-bottom: 25px;
+    }
+    .foot h6 {
+        font-size: 12px;
+        
+    }
+    
+    .foot-logo img {
+        width: 60%;
+    }
+    .foot .work img{
+        width: 100%;
+    }
+    
+    .foot-content{
+        padding: 0 10px;
+    }
+
+    .foot-btn {
+        font-size: 11px;
+
+    }
+
+}
+
+
+
+@media (min-width:768px) and (max-width:991px){
+    .top-bar-content {
+        font-size: 12px;
+        padding: 10px;
+    }
+    .top-bar-left ul li {
+        margin-right: 10px;
+    }
+
+    .logo img {
+        width: 80%;
+    }
+    .head-content{
+        padding: 0 10px;
+    }
+    .head-content .navbar li {
+        font-size: 14px;
+        margin-right: 20px;
+    }
+    .home-content h1 {
+        font-size: 45px;
+        letter-spacing: 2px;
+        margin-bottom: 22px;
+    }
+
+    .home-content p {
+        margin-bottom: 51px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .head-content li {
+        font-size: 14px;
+        margin-right: 20px;
+    }
+
+    .home-btn {
+        width: 250px;
+        height: 60px;
+        background: #00bc9c;
+        color: #fff;
+        font-size: 13px;
+    }
+    .responsive-title h2,
+    .check-work-title h2,
+    .bottom h2{
+        font-size: 33px;
+        margin-bottom: 25px;
+    }
+    .responsive-title p,
+    .check-work-title p ,
+    .bottom p {
+        font-size: 17px;
+        line-height: 28px;
+        margin-bottom: 60px;
+    }
+    .responsive .img-point img {
+        width: 65%;
+        height: 25%;
+    }
+    .responsive-content h4 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .responsive-content p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .check-work img{
+        width: 100%;
+    }
+    .work-content h4 {
+        font-size: 16px;
+        padding-top: 38px;
+        margin-bottom: 15px;
+    }
+    .bottom .bottom-btn {
+        height: 47px;
+        width: 145px;
+        font-size: 12px;
+        margin-top: -20px;
+    }
+    .foot h5 {
+        font-size: 13px;
+        margin-bottom: 28px;
+    }
+    .foot p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .foot h6 {
+        font-size: 12px;
+    }
+    .foot .work img{
+        width: 100%;
+    }
+    .foot li {
+        margin-right: 8px;
+        margin-bottom: 8px;
+    }
+    .contact {
+        font-size: 11px;
+    }
+    .foot input {
+        width: 100%;
+        height: 38px;
+        padding: 0px 7px;
+    }
+    .foot-btn {
+        width: 80px;
+        height: 30px;
+        font-size: 10px;
+        margin-top: 4px;
+        margin-left: -84px;
+    }
+    .foot-content {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .foot-right ul li {
+        margin: 0px 8px;
+    }
+    .foot-right .foot-dot {
+        margin-left: 15px;
+    }
+    
+
+}
+
+@media (max-width: 767px) {
+    
+        .col-25,
+        .col-33,
+        .col-50 {
+            width: 100%;
+    }
+    .top-bar-content{
+        flex-direction: column;
+    }
+    
+    .top-bar-left ul li {
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .top-bar-right ul li i {
+        margin-left: 12px;
+    }
+    .head-content{
+        display: block;
+        text-align: center;
+        height: 72px;
+        margin-top: 20px;
+    }
+    
+    .logo{
+        margin: 0 auto;
+    }
+    .logo img {
+        width: 60%;
+    }
+    
+    .head-content .navbar li {
+        font-size: 8px;
+        margin-right: 9px;
+    }
+    .head-content .search a {
+        font-size: 12px;
+    }
+    .home-content h1 {
+        font-size: 24px;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
+    .home-content p {
+        margin-bottom: 50px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .home-btn {
+        width: 170px;
+        height: 37px;
+        font-size: 11px;
+    }
+    .home {
+        clear: both;
+        height: 500px;
+    }
+    .responsive {
+        display: block;
+        padding: 50px 0;
+    }
+    .responsive .img-point {
+        text-align: center;
+    }
+    
+    .responsive-title h2{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .responsive-title p{
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 25px;
+    }
+    .responsive .img-point img {
+        width: 40px;
+    }
+    .responsive-content h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .responsive-content p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 20px;
+        
+    }
+    .check-work{
+        display: block;
+        padding: 25px 0;
+        
+    }
+    .check-work-title h2,
+    .bottom h2  {
+        font-size: 18px;
+        margin: 25px;
+    }
+    .check-work-title p{
+        font-size: 12px;
+        line-break: auto;
+        margin-bottom: 30px;
+    }
+    .check-work img{
+        width: 100%;
+    }
+    .check-work .work-content {
+        height: 75px;
+        margin-top: -5px;
+        margin-bottom: 30px;
+    }
+    .work-content h4 {
+        font-size: 12px;
+        padding-top: 22px;
+        margin-bottom: 5px;
+    }
+    .work-content p {
+        font-size: 10px;
+    }
+    .dot {
+        height: 7px;
+        width: 7px;
+        margin-top: 20px;
+    }
+    
+    .bottom{
+        clear: both;
+        padding: 50px 0; 
+     }
+       
+    
+    .bottom p{
+        font-size: 12px;
+        line-height: 22px;
+        margin-bottom: 30px;
+    }
+    .bottom .bottom-btn {
+        height: 35px;
+        width: 125px;
+        font-size: 10px;
+    }
+    
+
+    .foot{
+        display: block;
+        text-align: center;
+    }
+    .foot h5 {
+        font-size: 14px;
+        margin: 25px 0;
+    }
+    .foot-logo {
+        margin-bottom: 14px;
+    }
+    .foot-logo img {
+        width: 25%;
+    }
+    .foot p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 18px;
+    }
+    .foot h6 {
+        font-size: 12px;
+    }
+    
+    .contact{
+        justify-content: center;
+        font-size: 11px;
+        text-align: left;
+    }
+    .foot input {
+        width: 65%;
+        height: 35px;
+    }
+    .foot-btn {
+        
+        width: 70px;
+        height: 28px;
+        font-size: 10px;
+        margin-left: -73px;
+        
+    }
+    
+    .foot-content {
+        font-size: 8px;
+        justify-content: center;
+        
+    }
+    .foot-right .foot-dot {
+        margin-left: 0px;
+    }
+    
+    .foot-right ul li {
+        margin: 0px 0px;
+    }
+    
+}
+
+@media (min-width:576px) and (max-width:767px){
+
+    .logo img {
+        width: 65%;
+    }
+
+    .head-content .navbar li {
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    .home-content h1 {
+        font-size: 34px;
+        margin-bottom: 12px;
+    }
+    
+    .home-content p {
+        line-height: 20px;
+    }
+    .responsive-title h2 {
+        font-size: 20px;
+        
+    }
+    .responsive-title p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 28px;
+    }
+    
+    .check-work-title h2,
+     .bottom h2 {
+        font-size: 20px;
+        
+    }
+    .check-work-title p,
+    .bottom p {
+        font-size: 14px;
+    }
+    .foot-logo img {
+        width: 25%;
+    }
+    .contact {
+        font-size: 12px;
+    }
+    .foot h5 {
+        font-size: 15px;
+    }
+    .foot p {
+        font-size: 14px;
+    }
+    .foot input {
+        width: 48%;
+    }
+    .foot-content {
+        font-size: 10px;
+    }
+    .foot-content .foot-left{
+        margin-right: 10px;
+    }
+    .foot-right .foot-dot {
+        margin-left: 10px;
+    }
+    
+    .foot-right ul li {
+        margin: 0 11px;
+    }
+}
+
+
+
+    @media (min-width:480px) and (max-width:575px){
+
+        .head-content .navbar li {
+            font-size: 11px;
+            margin-right: 20px;
+        }
+        .foot-content {
+            font-size: 10px;
+        }
+        .foot-right ul li {
+            margin: 0px 8px;
+        }
+
+    }
+
+
+
